@@ -1,0 +1,96 @@
+.wrapper{
+    width:50%;
+    margin:40px auto;
+    background-color: rgba(81, 204, 228, 0.71);
+    padding: 20px;
+}
+
+.container{
+    max-width:300px;
+    background-color: #fff;
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+
+}
+
+.dateTask{
+    border-bottom:1px solid #bebebe;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.listTasks{
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.listTasks .task{
+    display: flex;
+}
+
+.listTasks .taskInfo{
+    display: flex;
+    margin:20px 0 0 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom:1px solid #bebebe;
+
+}
+
+.taskInfo .task label{
+    margin-left: 10px;
+}
+
+.listTasks .task input:checked+label{
+    text-decoration: line-through;
+    color:#5a5a5a;
+}
+
+.add{
+    background-color: #fff;
+    position: absolute;
+    right: 5px;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add .fa-plus-circle{
+    font-size: 30px;
+    color: #5d9c0a;
+}
+
+
+.addTask{
+    margin-top: 20px;
+}
+
+.addTask .addTask_form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.addTask .addTask_form label{
+    width: 100%;
+}
+
+.addTask .addTask_form input{
+    width:100%;
+    margin-top:10px;
+}
+
+.addTask .addTask_form .dateTime{
+    width: 48%;
+}
+
+
